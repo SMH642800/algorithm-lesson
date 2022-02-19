@@ -12,7 +12,7 @@
 # 程式題(二元搜尋(Binary Search)應用) :desktop_computer:
 ## 3. 二元搜尋應用 : 當數字可以重複
 1. 程式碼 : 
-``` python=
+``` python
 def binary_search(data: list, left: int, right: int, key: int):
     while left <= right:
         mid = (left + right)//2
@@ -47,7 +47,7 @@ if __name__ == "__main__":
 
 ## 4. 二元搜尋應用 : 找數字該插入的位置
 1. 程式碼 : 
-```python=
+```python
 def binary_search(data: list, left: int, right: int, key: int):
     curr_num = 0   # 記錄最近一次的index值
     while left <= right:
@@ -81,7 +81,7 @@ if __name__ == "__main__":
 
 ## 5. 二元搜尋應用 : 找出最早出問題的版本
 1. 程式碼 : 
-```python=
+```python
 # The isBadVersion API is already defined for you.
 # def isBadVersion(version: int) -> bool:
 
@@ -104,7 +104,7 @@ class Solution:
 
 ## 6. 二元搜尋應用 : 開根號後的整數部分
 1. 程式碼 : 
-```python=
+```python
 import math
 from math import sqrt
 
