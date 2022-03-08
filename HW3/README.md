@@ -9,22 +9,23 @@
 ---
 
 - 解答 : 
+    - ![](https://i.imgur.com/tPkGTDU.jpg)
     - n = 5帶入 f(n)=(n+8)(n-1)/2，所以 f(5)=13。
-    - 第一回合 : 3次，第二回合 : 4次，第三回合 : 4次，第一回合 : 3次，共14次。
+    - 第一回合 : 3次，第二回合 : 4次，第三回合 : 4次，第四回合 : 3次，共14次。
 
 ## 2. Binary Search
 - 題目 :
     - 請參考投影片25頁與26頁，算出15個有序數列使用Binary Search，平均的比對次數為何？
     
-- 解答 : log(15+1) = 4
-
-
+- 解答 : 
+    - **公式 :** ![](https://i.imgur.com/ba9ZZjQ.jpg)
+    - A(n) = [(1x1+2x2+3x4+4x8)+(4*(15+1))] / [15+(15+1)] = 3.645
 
 ---
 
 # 程式題 :「延續二元搜尋(Binary Search)應用」 :desktop_computer:
 * 示範程式 (python)： **Binary Search**
-```python=
+```python
 def binary_search(data, key):
     left,right = 0, len(data)-1
     while left <= right:        
